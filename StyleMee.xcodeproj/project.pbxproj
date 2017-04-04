@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3006081E1E8DEB93007CD71E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3006081D1E8DEB93007CD71E /* HomeViewController.swift */; };
+		300608201E8DED3A007CD71E /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3006081F1E8DED39007CD71E /* UploadViewController.swift */; };
+		300835D61E8A9B99002E114C /* Walk-In-Closet-Design-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 300835D51E8A9B99002E114C /* Walk-In-Closet-Design-1.png */; };
+		300835DB1E8A9DB7002E114C /* pastlooks-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 300835D71E8A9DB7002E114C /* pastlooks-1.png */; };
+		300835DC1E8A9DB7002E114C /* Ellipse 10-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 300835D81E8A9DB7002E114C /* Ellipse 10-1.png */; };
+		300835DD1E8A9DB7002E114C /* calender-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 300835D91E8A9DB7002E114C /* calender-1.png */; };
+		300835DE1E8A9DB7002E114C /* Ellipse-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 300835DA1E8A9DB7002E114C /* Ellipse-1.png */; };
+		30487E181E91D258005C3280 /* Line.png in Resources */ = {isa = PBXBuildFile; fileRef = 30487E171E91D258005C3280 /* Line.png */; };
 		307672AB1E88866D00E2B138 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307672AA1E88866D00E2B138 /* AppDelegate.swift */; };
 		307672AD1E88866D00E2B138 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307672AC1E88866D00E2B138 /* ViewController.swift */; };
 		307672B01E88866D00E2B138 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307672AE1E88866D00E2B138 /* Main.storyboard */; };
@@ -15,6 +23,19 @@
 		307672B81E88866D00E2B138 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307672B61E88866D00E2B138 /* LaunchScreen.storyboard */; };
 		307672C31E88866D00E2B138 /* StyleMeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307672C21E88866D00E2B138 /* StyleMeeTests.swift */; };
 		307672CE1E88866D00E2B138 /* StyleMeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307672CD1E88866D00E2B138 /* StyleMeeUITests.swift */; };
+		307672DE1E88886700E2B138 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 307672DD1E88886700E2B138 /* GoogleService-Info.plist */; };
+		307672DF1E88886700E2B138 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 307672DD1E88886700E2B138 /* GoogleService-Info.plist */; };
+		307672E01E88886700E2B138 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 307672DD1E88886700E2B138 /* GoogleService-Info.plist */; };
+		309ADB161E89447F0054B0F8 /* blondlogin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 309ADB151E89447F0054B0F8 /* blondlogin.jpg */; };
+		309ADB221E8945220054B0F8 /* catalouge.png in Resources */ = {isa = PBXBuildFile; fileRef = 309ADB181E8945220054B0F8 /* catalouge.png */; };
+		309ADB251E8945220054B0F8 /* Log-In Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 309ADB1B1E8945220054B0F8 /* Log-In Button.png */; };
+		309ADB261E8945220054B0F8 /* lookbook.png in Resources */ = {isa = PBXBuildFile; fileRef = 309ADB1C1E8945220054B0F8 /* lookbook.png */; };
+		309ADB271E8945220054B0F8 /* oie_transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 309ADB1D1E8945220054B0F8 /* oie_transparent.png */; };
+		309ADB291E8945220054B0F8 /* rename.png in Resources */ = {isa = PBXBuildFile; fileRef = 309ADB1F1E8945220054B0F8 /* rename.png */; };
+		309ADB2A1E8945220054B0F8 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 309ADB201E8945220054B0F8 /* settings.png */; };
+		4247DCB9057B235468639CB6 /* Pods_StyleMeeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61923F5D5662E36CBCDF9B36 /* Pods_StyleMeeTests.framework */; };
+		713849E9CD4BF42C328F7E52 /* Pods_StyleMee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E43DF68AB55037EB954B4E /* Pods_StyleMee.framework */; };
+		AD2F7E84E2F6EEE36D9BEF4E /* Pods_StyleMeeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1B79FD8A187EA370A43748 /* Pods_StyleMeeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +56,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29E43DF68AB55037EB954B4E /* Pods_StyleMee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StyleMee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B96DA31F5B6CB320C6F9805 /* Pods-StyleMee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StyleMee.release.xcconfig"; path = "Pods/Target Support Files/Pods-StyleMee/Pods-StyleMee.release.xcconfig"; sourceTree = "<group>"; };
+		3006081D1E8DEB93007CD71E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../HomeViewController.swift; sourceTree = "<group>"; };
+		3006081F1E8DED39007CD71E /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UploadViewController.swift; path = ../UploadViewController.swift; sourceTree = "<group>"; };
+		300835D51E8A9B99002E114C /* Walk-In-Closet-Design-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Walk-In-Closet-Design-1.png"; sourceTree = "<group>"; };
+		300835D71E8A9DB7002E114C /* pastlooks-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pastlooks-1.png"; sourceTree = "<group>"; };
+		300835D81E8A9DB7002E114C /* Ellipse 10-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ellipse 10-1.png"; sourceTree = "<group>"; };
+		300835D91E8A9DB7002E114C /* calender-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calender-1.png"; sourceTree = "<group>"; };
+		300835DA1E8A9DB7002E114C /* Ellipse-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ellipse-1.png"; sourceTree = "<group>"; };
+		30487E171E91D258005C3280 /* Line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Line.png; sourceTree = "<group>"; };
 		307672A71E88866C00E2B138 /* StyleMee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StyleMee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		307672AA1E88866D00E2B138 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		307672AC1E88866D00E2B138 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +80,21 @@
 		307672C91E88866D00E2B138 /* StyleMeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StyleMeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		307672CD1E88866D00E2B138 /* StyleMeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleMeeUITests.swift; sourceTree = "<group>"; };
 		307672CF1E88866D00E2B138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		307672DD1E88886700E2B138 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		309ADB151E89447F0054B0F8 /* blondlogin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blondlogin.jpg; sourceTree = "<group>"; };
+		309ADB181E8945220054B0F8 /* catalouge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catalouge.png; sourceTree = "<group>"; };
+		309ADB1B1E8945220054B0F8 /* Log-In Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Log-In Button.png"; sourceTree = "<group>"; };
+		309ADB1C1E8945220054B0F8 /* lookbook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookbook.png; sourceTree = "<group>"; };
+		309ADB1D1E8945220054B0F8 /* oie_transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oie_transparent.png; sourceTree = "<group>"; };
+		309ADB1F1E8945220054B0F8 /* rename.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rename.png; sourceTree = "<group>"; };
+		309ADB201E8945220054B0F8 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		372DA7A650180FC5C95D4EDD /* Pods-StyleMeeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StyleMeeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StyleMeeUITests/Pods-StyleMeeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		61923F5D5662E36CBCDF9B36 /* Pods_StyleMeeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StyleMeeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		857BE2BACF8F7485C007E6BF /* Pods-StyleMeeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StyleMeeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StyleMeeTests/Pods-StyleMeeTests.release.xcconfig"; sourceTree = "<group>"; };
+		909F2D98FC83290BDD603199 /* Pods-StyleMeeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StyleMeeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StyleMeeTests/Pods-StyleMeeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4E7486E980E55B12FFC2ED1 /* Pods-StyleMeeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StyleMeeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StyleMeeUITests/Pods-StyleMeeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F1368084EF21FDAF27D2A5EC /* Pods-StyleMee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StyleMee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StyleMee/Pods-StyleMee.debug.xcconfig"; sourceTree = "<group>"; };
+		FD1B79FD8A187EA370A43748 /* Pods_StyleMeeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StyleMeeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				713849E9CD4BF42C328F7E52 /* Pods_StyleMee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4247DCB9057B235468639CB6 /* Pods_StyleMeeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD2F7E84E2F6EEE36D9BEF4E /* Pods_StyleMeeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +132,8 @@
 				307672C11E88866D00E2B138 /* StyleMeeTests */,
 				307672CC1E88866D00E2B138 /* StyleMeeUITests */,
 				307672A81E88866C00E2B138 /* Products */,
+				E71AD821DBE0216C7A75D628 /* Pods */,
+				4907862DAC44EDB15C8E1F13 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +150,12 @@
 		307672A91E88866C00E2B138 /* StyleMee */ = {
 			isa = PBXGroup;
 			children = (
+				309ADB2B1E89452F0054B0F8 /* Images */,
 				307672AA1E88866D00E2B138 /* AppDelegate.swift */,
 				307672AC1E88866D00E2B138 /* ViewController.swift */,
+				3006081D1E8DEB93007CD71E /* HomeViewController.swift */,
+				3006081F1E8DED39007CD71E /* UploadViewController.swift */,
+				307672DD1E88886700E2B138 /* GoogleService-Info.plist */,
 				307672AE1E88866D00E2B138 /* Main.storyboard */,
 				307672B41E88866D00E2B138 /* Assets.xcassets */,
 				307672B61E88866D00E2B138 /* LaunchScreen.storyboard */,
@@ -128,6 +183,49 @@
 			path = StyleMeeUITests;
 			sourceTree = "<group>";
 		};
+		309ADB2B1E89452F0054B0F8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				30487E171E91D258005C3280 /* Line.png */,
+				300835D51E8A9B99002E114C /* Walk-In-Closet-Design-1.png */,
+				309ADB151E89447F0054B0F8 /* blondlogin.jpg */,
+				309ADB181E8945220054B0F8 /* catalouge.png */,
+				300835D71E8A9DB7002E114C /* pastlooks-1.png */,
+				300835D81E8A9DB7002E114C /* Ellipse 10-1.png */,
+				300835D91E8A9DB7002E114C /* calender-1.png */,
+				300835DA1E8A9DB7002E114C /* Ellipse-1.png */,
+				309ADB1B1E8945220054B0F8 /* Log-In Button.png */,
+				309ADB1C1E8945220054B0F8 /* lookbook.png */,
+				309ADB1D1E8945220054B0F8 /* oie_transparent.png */,
+				309ADB1F1E8945220054B0F8 /* rename.png */,
+				309ADB201E8945220054B0F8 /* settings.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4907862DAC44EDB15C8E1F13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29E43DF68AB55037EB954B4E /* Pods_StyleMee.framework */,
+				61923F5D5662E36CBCDF9B36 /* Pods_StyleMeeTests.framework */,
+				FD1B79FD8A187EA370A43748 /* Pods_StyleMeeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E71AD821DBE0216C7A75D628 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1368084EF21FDAF27D2A5EC /* Pods-StyleMee.debug.xcconfig */,
+				2B96DA31F5B6CB320C6F9805 /* Pods-StyleMee.release.xcconfig */,
+				909F2D98FC83290BDD603199 /* Pods-StyleMeeTests.debug.xcconfig */,
+				857BE2BACF8F7485C007E6BF /* Pods-StyleMeeTests.release.xcconfig */,
+				372DA7A650180FC5C95D4EDD /* Pods-StyleMeeUITests.debug.xcconfig */,
+				A4E7486E980E55B12FFC2ED1 /* Pods-StyleMeeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 307672D21E88866D00E2B138 /* Build configuration list for PBXNativeTarget "StyleMee" */;
 			buildPhases = (
+				9AB507521D796831489B9B45 /* [CP] Check Pods Manifest.lock */,
 				307672A31E88866C00E2B138 /* Sources */,
 				307672A41E88866C00E2B138 /* Frameworks */,
 				307672A51E88866C00E2B138 /* Resources */,
+				53CD7A7A5A2644FD8C39ED59 /* [CP] Embed Pods Frameworks */,
+				7D94B064F59D0EADF1FD5AC2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +253,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 307672D51E88866D00E2B138 /* Build configuration list for PBXNativeTarget "StyleMeeTests" */;
 			buildPhases = (
+				CC4D3E945EEF5DE8FC059E1A /* [CP] Check Pods Manifest.lock */,
 				307672BA1E88866D00E2B138 /* Sources */,
 				307672BB1E88866D00E2B138 /* Frameworks */,
 				307672BC1E88866D00E2B138 /* Resources */,
+				3FD70E5506D247B8D6D454E1 /* [CP] Embed Pods Frameworks */,
+				47121F4B0F4060783FAA8DF4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +274,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 307672D81E88866D00E2B138 /* Build configuration list for PBXNativeTarget "StyleMeeUITests" */;
 			buildPhases = (
+				FFEDD9AB8C543D4780B86D07 /* [CP] Check Pods Manifest.lock */,
 				307672C51E88866D00E2B138 /* Sources */,
 				307672C61E88866D00E2B138 /* Frameworks */,
 				307672C71E88866D00E2B138 /* Resources */,
+				C2911CF8AF1F5B63FE75D62A /* [CP] Embed Pods Frameworks */,
+				745621161856D41F2368F3ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +342,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				300835DB1E8A9DB7002E114C /* pastlooks-1.png in Resources */,
+				300835DD1E8A9DB7002E114C /* calender-1.png in Resources */,
+				309ADB221E8945220054B0F8 /* catalouge.png in Resources */,
+				309ADB161E89447F0054B0F8 /* blondlogin.jpg in Resources */,
+				309ADB271E8945220054B0F8 /* oie_transparent.png in Resources */,
+				30487E181E91D258005C3280 /* Line.png in Resources */,
+				300835DC1E8A9DB7002E114C /* Ellipse 10-1.png in Resources */,
+				309ADB2A1E8945220054B0F8 /* settings.png in Resources */,
 				307672B81E88866D00E2B138 /* LaunchScreen.storyboard in Resources */,
+				309ADB261E8945220054B0F8 /* lookbook.png in Resources */,
+				309ADB251E8945220054B0F8 /* Log-In Button.png in Resources */,
+				300835DE1E8A9DB7002E114C /* Ellipse-1.png in Resources */,
 				307672B51E88866D00E2B138 /* Assets.xcassets in Resources */,
 				307672B01E88866D00E2B138 /* Main.storyboard in Resources */,
+				307672DE1E88886700E2B138 /* GoogleService-Info.plist in Resources */,
+				300835D61E8A9B99002E114C /* Walk-In-Closet-Design-1.png in Resources */,
+				309ADB291E8945220054B0F8 /* rename.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +366,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				307672DF1E88886700E2B138 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,16 +374,157 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				307672E01E88886700E2B138 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FD70E5506D247B8D6D454E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StyleMeeTests/Pods-StyleMeeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47121F4B0F4060783FAA8DF4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StyleMeeTests/Pods-StyleMeeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53CD7A7A5A2644FD8C39ED59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StyleMee/Pods-StyleMee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		745621161856D41F2368F3ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StyleMeeUITests/Pods-StyleMeeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D94B064F59D0EADF1FD5AC2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StyleMee/Pods-StyleMee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AB507521D796831489B9B45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2911CF8AF1F5B63FE75D62A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StyleMeeUITests/Pods-StyleMeeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC4D3E945EEF5DE8FC059E1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFEDD9AB8C543D4780B86D07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		307672A31E88866C00E2B138 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3006081E1E8DEB93007CD71E /* HomeViewController.swift in Sources */,
+				300608201E8DED3A007CD71E /* UploadViewController.swift in Sources */,
 				307672B31E88866D00E2B138 /* StyleMee.xcdatamodeld in Sources */,
 				307672AD1E88866D00E2B138 /* ViewController.swift in Sources */,
 				307672AB1E88866D00E2B138 /* AppDelegate.swift in Sources */,
@@ -414,6 +677,7 @@
 		};
 		307672D31E88866D00E2B138 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1368084EF21FDAF27D2A5EC /* Pods-StyleMee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StyleMee/Info.plist;
@@ -426,6 +690,7 @@
 		};
 		307672D41E88866D00E2B138 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B96DA31F5B6CB320C6F9805 /* Pods-StyleMee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StyleMee/Info.plist;
@@ -438,6 +703,7 @@
 		};
 		307672D61E88866D00E2B138 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 909F2D98FC83290BDD603199 /* Pods-StyleMeeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +718,7 @@
 		};
 		307672D71E88866D00E2B138 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 857BE2BACF8F7485C007E6BF /* Pods-StyleMeeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,6 +733,7 @@
 		};
 		307672D91E88866D00E2B138 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 372DA7A650180FC5C95D4EDD /* Pods-StyleMeeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = StyleMeeUITests/Info.plist;
@@ -479,6 +747,7 @@
 		};
 		307672DA1E88866D00E2B138 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4E7486E980E55B12FFC2ED1 /* Pods-StyleMeeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = StyleMeeUITests/Info.plist;
@@ -509,6 +778,7 @@
 				307672D41E88866D00E2B138 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		307672D51E88866D00E2B138 /* Build configuration list for PBXNativeTarget "StyleMeeTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +787,7 @@
 				307672D71E88866D00E2B138 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		307672D81E88866D00E2B138 /* Build configuration list for PBXNativeTarget "StyleMeeUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +796,7 @@
 				307672DA1E88866D00E2B138 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
